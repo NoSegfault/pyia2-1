@@ -14,7 +14,8 @@ pip install comtypes
 ```
 
 * Register IAccessible2Proxy.dll with Windows
-  
+* You need to run the command prompt as administrator to register the .dll file
+
 ```
 regsvr32 IAccessible2Proxy.dll
 ```
